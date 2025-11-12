@@ -2,6 +2,19 @@ import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
 import streamlit_carousel
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #0E1117;
+        /* or try a gradient: */
+        /* background: linear-gradient(to right, #74ebd5, #ACB6E5); */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # items_carousel = [
 #     dict(
 #         img="https://i.imgur.com/ZnrNi2k.png",
