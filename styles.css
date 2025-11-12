@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.st-key-container_nav {
+    margin-bottom: 100px;
+}
+
+.stButton > button {
+    border: none;
+    background-color: transparent;
+}
+
+.section_abt_me {
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.bio_course {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.bio_name {
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.bio_desc {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.subsection_buttons {
+    margin-top: 2em;
+}
+
+.btn_projects {
+    font-size: 1rem;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #FFC31E;
+    color: black;
+    margin-right: 1em;
+}
+
+.btn_projects:hover {
+    background-color: #DEA504;
+}
+
+.btn_projects:active {
+    background-color: #A77B00;
+}
+
+.btn_contacts {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.st-key-container_projects_main {
+    margin-top: 50px;
+    background-color: #090B0E;
+    padding: 1rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.st-key-container_excelone {
+    background-color: #252D3A;
+    border: 0;
+    border-radius: 25px;
+}
+
+.st-key-container_profinder {
+    background-color: #252D3A;
+    border: 0;
+    border-radius: 25px;
+}
+
+.st-key-container_pppoe {
+    background-color: #252D3A;
+    border: 0;
+    border-radius: 25px;
+}
+
+.container_excelone, .container_profinder, .container_pppoe {
+    height: 460px;
+    border-radius: 25px;
+    padding: 0.4rem
+}
+
+.tag_language {
+    background-color: #FFC31E;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    color: black;
+    width: 4.7rem;
+}
+
+.project_title {
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.container_links {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_github, .container_image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container_image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_github, .btn_image {
+    font-size: 0.7rem;
+    background-color: transparent;
+    border: 0;
+}
+
+.container_skill_main {
+    height: 58px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -10%;
+}
+
+.skills_and_languages {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.skill_name {
+    margin: 0;
+    padding-right: 20px;
+    color: #FFC31E;
+}
+
+.st-key-container_skill_c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_cpp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_csharp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_java {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_sql {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_python {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_kotlin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_assembly {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_html {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_css {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_js {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.st-key-container_skill_ml {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A77B00;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.education_and_achievements {
+    font-weight: bold;
+}
+
+.st-key-container_citu, .st-key-container_onhs_shs, .st-key-container_onhs_jhs, .st-key-container_tes {
+    display: flex;
+    align-content: center;
+    border: 0;
+    border-radius: 0;
+    border-left: 2px solid white;
+    margin-left: 30px;
+}
+
+.dates {
+    margin-bottom: 10px;
+}
+
+.school_name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.school_desc {
+    margin: 0;
+}
+
+.achievement_name {
+    font-weight: bold;
+}
+
+.st-key-container_codechum, .st-key-container_dost, .st-key-container_kalea {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: #252D3A;
+    padding-top: 0;
+    border: 0;
+}
+
+.st-key-container_main_contacts {
+    background-color: #090B0E;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.contact_link {
+    text-decoration: none;
+    color: white;
+}
+
+.st-key-container_fb, .st-key-container_ig, .st-key-container_mail, .st-key-container_phone {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.st-key-container_copyright {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center
+}
+
+
+
+
+
+
