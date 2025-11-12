@@ -1,7 +1,4 @@
 import streamlit as st
-from streamlit_navigation_bar import st_navbar
-import pandas as pd
-import streamlit.components.v1 as components
 from streamlit_extras.stylable_container import stylable_container
 import streamlit_carousel
 
